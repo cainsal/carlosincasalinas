@@ -1,5 +1,5 @@
 <?php
- require_once("header/header.php");
+ require_once("modules/header.php");
 ?>
 
   <!--------home---->
@@ -8,7 +8,7 @@
 			<h3>Hello, I'm</h3> 
 			<h1><span class="typing-1"></span></h1>
 			<h5>A Creative Software Developer <span>From Lima, Perú</span></h5>
-			<p>I'm creative designer based in New York, and I'm very passionate <br> and dedicated to my work.</p>
+			<p>I'm developer software fro Lima, and I'm very passionate <br> and dedicated to my work.</p>
 			<div class="social">
 				<a href="#"><i class='bx bxl-facebook'></i></a>
 				<a href="#"><i class='bx bxl-twitter' ></i></a>
@@ -222,9 +222,10 @@
 	</section>
 
   <!--------ends---->
-	<div class="ends">
-		<p>Made with love by Carlos Inca Salinas © 2023</p>
-	</div>
+	<?php
+		include("modules/footer.php");
+	?>
+	
 
 	<script src="https://unpkg.com/scrollreveal"></script>
 
